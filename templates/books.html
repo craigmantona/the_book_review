@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 {% block material %}
 
-    <h2>I'm extending the Base template</h2>
-
     {% for book in books %}
         {{ book.book_name }}<br>
         {{ book.author }}<br>
