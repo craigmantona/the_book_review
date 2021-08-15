@@ -1,26 +1,23 @@
 {% extends "base.html" %}
 {% block material %}
 
-{% for book in books %}
-{{ book.book_name }}<br>
-{{ book.author }}<br>
-{{ book.review }}<br>
-{{ book.recommend }}<br>
-{% endfor %}
 
 <ul class="collapsible popout">
+    {% for book in books %}
     <li>
-        <div class="collapsible-header orange lighten-4"><i class="fas fa-caret-down"></i>First</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        <div class="collapsible-header orange lighten-4">
+            <i class="fas fa-caret-down"></i>
+            <strong>{{ book.book_name }}</strong> : {{ book.author }}
+            {% if book.recommend == "yes" %}
+                <i class="far fa-check-circle tooltipped"
+                data-position="top" data-tooltip="Recommended!"></i>
+            {% endif %}
+        </div>
+        <div class="collapsible-body">
+            <p>{{ book.review }}</p>
+        </div>
     </li>
-    <li>
-        <div class="collapsible-header orange lighten-4"><i class="fas fa-caret-down"></i>econd</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-        <div class="collapsible-header orange lighten-4"><i class="fas fa-caret-down"></i>hird</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
+    {% endfor %}
 </ul>
 
 {% endblock %}
