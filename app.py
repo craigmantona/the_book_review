@@ -136,8 +136,15 @@ def edit_book(book_id):
         flash("Book Succesfully Edited!")
         
     book = mongo.db.books.find_one({"_id": ObjectId(book_id)})
-    
+
     return render_template("edit_book.html", book=book)
+
+
+@app.route("/delete_book/<book_id>")
+def delete_book(book_id):
+    mongo.db.books.remove({"_id": ObjectId(book_id)})
+    flash("Book Successfully Deleted")
+    return redirect(url_for("get_books"))
 
 
 if __name__ == "__main__":
