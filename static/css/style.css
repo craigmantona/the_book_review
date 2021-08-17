@@ -1,6 +1,12 @@
 body {
     background-color: #fff3e0;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
 }
+
+div.a {
+    font-size: 15px;
+  }
 
 .text-shadow {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
