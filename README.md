@@ -1,104 +1,367 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Book Review
 
-Welcome craigmantona,
+## Milestone 3 Project
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+The Book Review - my third milestone project - a site for book lovers and people who want to keep a lost of books that they have read/reviewed .
+<!-- ## [Link to finished site](https://craigmantona.github.io/EPL-Memory-Game-1/) -->
 
-## Gitpod Reminders
+A site for book readers to join and see and review books.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+It is an easy to use site that has been made using css, HTML, Python3, MongoDB and javascript.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+<!-- <img src="/assets/images/mockup.png" alt="Images of site on different media screens."/> -->
 
-Another blue button should appear to click: _Open Browser_.
+#### A view of how the site looks over different media.
+---
+# Table of contents
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [UX](#ux)
+    - [Website owner business goals](#website-owner-business-goals)
+    - [User goals](#user-goals)
+        - [As a site owner](#as-a-site-owner)
+        - [As a visitor to the site](#as-a-visitor-to-the-site)
+    - [User stories](#user-stories)
+    - [Structure of the website](#structure-of-the-website)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+- [Features](#features)
+- [Technology](#technology)
+- [Testing](#testing)
+    - [Code Validation](#code-validation)
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)
+    - [User stories testing](#user-stories-testing)
+    - [Issues found during site development](#issues-found-during-site-development)
+    - [Performance testing](#performance-testing)
+    - [Known bugs](#known-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
 
-A blue button should appear to click: _Make Public_,
+---
+## UX
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User goals
 
-To log into the Heroku toolbelt CLI:
+## Website owner business goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Create a basic memory game that is fun and easy to play.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## User stories
 
-## Release History
+### As a site owner
+* I would like to make a game that is enjoyable for people to play.
+* I want visitors to my game to be able to use my website intuitively and easily.
+* I would like visitors to my game be able to easily find the rules on how to play the game.
+* I would like visitors to my game be able to ask me any questions via a contact form.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### As a visitor to the site
+* I would like the site to be easy to navigate.
+* I would like to clearly see what $$$$$$$$$$$$$$$$$$$$$$$$$$
+* I would like to know what the top score is.
+* I would like to know how I performed in my game. Time and moves.
+* I would like several difficulty levels to test myself on.
+* I would like a fun way to test my memory skills out.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Structure of the website
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout. 
+It should be fully accessible on a range of devices and simple to navigate for all.
+I have asked some friends and family for their input and to test interaction
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Wireframes
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+I used the site https://www.edrawmax.com/ to create the wireframes for the site.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<img src="/assets/images/memory-game-iphone-wireframe-1.png" alt="Image of main page wireframe created before project started.">
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<img src="/assets/images/memory-game-iphone-wireframe-2.png" alt="Image of main page wireframe created before project started.">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<img src="/assets/images/memory-game-website-wireframe-1.png" alt="Image of main page wireframe created before project started.">
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<img src="/assets/images/memory-game-website-wireframe-2.png" alt="Image of main page wireframe created before project started.">
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Surface
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Colors
+Main colours used in a project:
+* background was an image
+* other background colors used: whitesmoke, #007 (a bold blue) and antiquewhite
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Fonts 
 
-------
+* The Noto Sans TC font is the main font used throughout the whole website with Sana-Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Noto Sans TC is a clean and clear font, so it is both attractive and appropriate. 
 
-## FAQ about the uptime script
+### Images
 
-**Why have you added this script?**
+* All images are credited in [credits](#credits) section.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+[Back to Table of contents](#table-of-contents)
+___
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+# Features
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The website consists of four pages. All are accessible from the main page. (Game page, team location page and contact page)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* Responsive on all device sizes
+* Interactive elements
 
-**So….?**
+The website has below features:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## Footer
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Footer is consistent on all pages except for the game page. 
+It has a contact button left side, and copyright text on the right side.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Home
 
-**Anything more?**
+* ### Title 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    * There is a h3 title to let people know what site they are on.
+
+* ### Rules of the game
+
+    * This is a modal showing the simple instructions of how to play the game.
+
+* ### Play Game
+
+    * This button takes you to the game page.
+
+* ### Team location
+
+    * This take you to the team location page where you can see the location of all 20 Premier League clubs.
+
+## Game page
+
+* ### Home button
+
+    * This allows the user to navigate back to the home page.
+
+* ### Play again button
+
+    * This allows the user to play the game again.
+
+
+## Team location page
+
+* ### Home button
+
+    * This allows the user to navigate back to the home page.
+
+* ### Google map
+
+    * This shows the user where the location of all 20 Premier League clubs.
+
+## Contact us page
+
+* ### Home button
+
+    * This allows the user to navigate back to the home page.
+
+* ### Enquiry form
+
+    * This is where you can send a message directly to us.
+
+
+[Back to Table of contents](#table-of-contents)
+___
+# Technology
+
+### Languages Used
+* HTML5
+* CSS
+* Javascript
+
+### Frameworks, Libraries & Programs Used
+1. Bootstrap 4.6:
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
+2. Hover.css:
+    * Hover.css was used on the the buttons in all pages to add the float transition while being hovered over.
+3. Google Fonts:
+    * Google fonts were used to import the 'Noto Sans TC' font into the style.css file which is used on all pages throughout the project.
+4. jQuery:
+    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+5. Git
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+6. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+7. Pixabay:
+    * Pixabay was used for the images on the website.
+9. Pexels:
+    * Pexels was used for the main image on the website.
+10. Edrawmax:
+    * Edrawmax was used to create the wireframes during the design process.
+11. Tinypng:
+    * Tinypng was used to reduce size of images.
+
+
+[Back to Table of contents](#table-of-contents)
+___
+# Testing
+
+## Code validation
+The Webformatter.com Markup Validator were used to validate every page of the project to ensure there were no syntax errors in the project for both HTML and CSS.
+
+* [HTML, CSS and JavaScript code checked through HTML/CSS/Javascript Formatter](https://webformatter.com/html) No issues found
+
+## Functionality testing 
+
+ I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+ 
+
+## Compatibility testing
+ Site was tested across several virtual mobile devices and browsers.
+ 
+ I tested on hardware devices such as: iPad pro, and iPhone11.
+
+
+## User stories testing
+
+### As a site owner:
+
+- I would like to make a game that is enjoyable for people to play.
+    * The game is very easy to use and good fun.
+
+- I want visitors to my game to be able to use my website intuitively and easily.
+    * The site is very easy to navigate.
+
+- I would like visitors to my game be able to easily find the rules on how to play the game.
+    * The rules are easy to find on the main page.
+
+- I would like visitors to my game be able to ask me any questions via a contact form.
+    *The contact form is easily located on the footer of all pages except the main game page.
+
+
+### As a visitor:
+
+- I would like to know the rules of the game.
+    * The rules are easy to find on the main page.
+
+- As a fan of the Premier League I would like to know the current league standings.
+    * The API that I was hoping to use to do this did not work unfortunatley. Instead I had an interactive map locating all of the Premier League grounds.
+
+- I would like to know what the top score is.
+    * I did not get around to adding this element as I ran out of time. I will look to add this at a later stage.
+
+- I would like to know how I performed in my game. Time and moves.
+    * I did not get around to adding this element as I ran out of time. I will look to add this at a later stage.
+
+- I would like several difficulty levels to test myself on.
+    * I did not get around to adding this element as I ran out of time. I will look to add this at a later stage.
+
+- I would like a fun way to test my memory skills out.
+    * This is a fun way to test your basic memory skills.
+
+
+---
+## Issues found during site development
+
+* The API site that I signed up to use on the site proved to be unreliable and I had to abandon it in favour of the google map api.
+
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone8, iPad Pro & iPhone11.
+
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+* Issue with getting the cards to flip caused a lot of headaches. I got a friend (Palmjit Kunnar) to cast his eyes over my js code and he found my problem. I had accidentaly left some code out of the curly brackets that meant the js always stopped after the first click.
+<img src="/assets/images/flip-issue.png" alt="Images of cards staying turned after click in error."/>
+
+
+## Performance testing
+
+I ran [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
+Screenshots are presented below:
+
+<img src="/assets/images/lighthouse.png" alt="Images of performance from Lighthouse."/>
+
+
+### Known bugs
+The bottom of the cards on the game screen are slightly off the bottom of the screen.
 
 ---
 
-Happy coding!
+# Deployment
+
+This project was made using GitHub and GitPod.
+
+How to deploy this page to GitHub pages from the repository:
+
+1. Log in to GitHub
+2. Select the repository craigmantona/EPL-Memory-Game-1
+3. Under the repository name, click  Settings.
+4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
+5. Optionally, use the drop-down menu to select a folder for your publishing source.
+6. Click Save.
+
+Alternatively tou can pull the code from the GitHub repository:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the folder looking icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the folder looking icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the folder looking icon.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+[Back to Table of contents](#table-of-contents)
+___
+
+# Credits
+
+### Code
+* Code learned through the Code Institute Full Stack Development course was used throughout the site.
+
+* Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+* Deployment instructions used from GitHub help pages
+
+* README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
+
+* code learnt through freeCodeCamp.org video on YouTube for Memory Game <a href="https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1733s"></a>
+
+### Content
+* All content was written by the developer.
+
+### Links and images
+
+1. Photo by Dom Le Roy from Pexels stadium photo - https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/
+2. Arsenal flag - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568936">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568936">Pixabay</a>
+3. Chelsea - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2699594">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2699594">Pixabay</a>
+4. Leicester - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3566688">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3566688">Pixabay</a>
+5. Liverpool - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2698969">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2698969">Pixabay</a>
+6. Man City - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2697766">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2697766">Pixabay</a>
+7. Wolverhampton Wanderers - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568910">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568910">Pixabay</a>
+8. Badge - Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=308943">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=308943">Pixabay</a>
+
+
+### Acknowledgements
+* My Mentor Adegbenga Adeye for assistance and feedback - he's great!
+
+* Tutor support at Code Institute for their support.
+
+* My friend Palmjit Kunnar for his help on finding my error in my js game code!
+
+[Back to Table of contents](#table-of-contents)
+___
+
+# Screenshots
+
+## Project screenshots
+
+Home page on website <img src="/assets/images/home-page.png" alt="Home page on website."/>
+
+Rules modal on website <img src="/assets/images/rules.png" alt="Rules of game pop-up."/>
+
+Team location page on website <img src="/assets/images/team-location.png" alt="Team location page on website."/>
+
+Contact page on website <img src="/assets/images/contact.png" alt="Contact page on website."/>
+
+Game page on website <img src="/assets/images/game-page.png" alt="Game page on website."/>
