@@ -25,3 +25,10 @@ div.a {
     line-height: 42px;
 }
 
+nav .brand-logo {
+    padding-left: 30px;
+}
+
+nav ul a {
+    font-size: 1.5rem;
+}
