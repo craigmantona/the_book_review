@@ -37,7 +37,7 @@
             <div class="col s9">
                 Book Title: <strong>{{ book.book_name }}</strong> |  Author: {{ book.author }}
                 {% if book.recommend == "yes" %}
-                    <i class="far fa-check-circle tooltipped"
+                    <i class="far fa-check-circle tooltipped yellow"
                         data-position="top" data-tooltip="Recommended!"></i>
                 {% endif %}
             </div>
@@ -47,7 +47,7 @@
             <p><em>Reviewed By: {{ book.created_by }}</em></p>
             <!-- Purchase Link Button, only showing when link is in db -->
             {% if book.book_link != null %}
-                <a href="{{ book.book_link }}" target="_blank" class="btn-floating tooltipped purchase-btn" data-position="bottom" data-tooltip="Purchase Link">
+                <a href="{{ book.book_link }}" target="_blank" class="btn-floating tooltipped purchase-btn" data-position="bottom" data-tooltip="Book Link">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
             {% endif %}

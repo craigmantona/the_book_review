@@ -7,7 +7,7 @@ The Book Review - my third milestone project - a site for book lovers and people
 
 A site for book readers to join and see and review books.
 
-It is an easy to use site that has been made using css, HTML, Python3, MongoDB and javascript.
+It is an easy to use site that has been made using CSS, HTML, Python3, MongoDB and Javascript.
 
 
 <!-- <img src="/assets/images/mockup.png" alt="Images of site on different media screens."/> -->
@@ -54,17 +54,17 @@ To create an easy to use visually appealing site where book lovers can see and l
 
 ### As a site owner
 * I would like the site to be easy to navigate.
+* I would like to clearly see what books users are recommending.
+* I would like the ability to add/delete/edit reviews with admin abilities.
+* I would like to be able to generate revenue from Amazon book links.
+
+### As a visitor to the site
+* I would like the site to be easy to navigate.
 * I would like to clearly see what books are recommended.
 * I would like to register and log in to keep a list of books that they have reviewed.
 * I would like to be able to edit my reviews.
 * I would like to be able to delete my reviews.
 * I would like to know where to purchase a book from if I like it.
-
-### As a visitor to the site
-* I would like the site to be easy to navigate.
-* I would like to clearly see what books users are recommending.
-* I would like the ability to add/delete/edit reviews with admin abilities.
-* I would like to be able to generate revenue from Amazon book links.
 
 
 ## Structure of the website
@@ -94,24 +94,18 @@ Main colours used in a project:
 
 * The Cinzel font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Cinzel is a clean and clear and stylish font, so it is both attractive and appropriate. 
 
-<!-- ### Images
-
-* All images are credited in [credits](#credits) section.
-
-
-[Back to Table of contents](#table-of-contents) -->
 ___
 
-# Features
+<!-- # Features
 
 The website consists of four pages. All are accessible from the main page. (Game page, team location page and contact page)
 
 * Responsive on all device sizes
 * Interactive elements
 
-The website has below features:
+The website has below features: -->
 
-## Home
+<!-- ## Home
 
 * ### Title 
 
@@ -162,35 +156,43 @@ The website has below features:
 
 
 [Back to Table of contents](#table-of-contents)
-___
+___ -->
 # Technology
 
 ### Languages Used
 * HTML5
 * CSS
 * Javascript
+* Python3
+
+### Database Used
+* MongoDB
 
 ### Frameworks, Libraries & Programs Used
-1. Bootstrap 4.6:
-    * Bootstrap was used to assist with the responsiveness and styling of the website.
-2. Hover.css:
-    * Hover.css was used on the the buttons in all pages to add the float transition while being hovered over.
-3. Google Fonts:
-    * Google fonts were used to import the 'Noto Sans TC' font into the style.css file which is used on all pages throughout the project.
-4. jQuery:
-    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-5. Git
+1. Google Fonts:
+    * Google fonts were used to import the 'Cinzel' font into the style.css file which is used on all pages throughout the project.
+2. jQuery:
+    * jQuery to make the navbar responsive.
+3. Git
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-6. GitHub:
+4. GitHub:
     * GitHub is used to store the projects code after being pushed from Git.
-7. Pixabay:
-    * Pixabay was used for the images on the website.
-9. Pexels:
-    * Pexels was used for the main image on the website.
-10. Edrawmax:
-    * Edrawmax was used to create the wireframes during the design process.
-11. Tinypng:
-    * Tinypng was used to reduce size of images.
+5. Heroku:
+    * Heroku was used to deploy the project.
+6. Materialize:
+    * Materialize was used for the layout, styling, visual appearance and responsiveness on the website.
+7. PyMongo:
+    * PyMongo was used as the Python driver for MongoDB.
+8. Jinja:
+    * Jinja was used as a templating engine for Python.
+9. Flask:
+    * Flask was used as a web framework for Python.
+10. Balsamiq:
+    * Balsamiq was used to create the wireframes for the project.
+11. Font-Awesome:
+    * Font-Awesome was used ifor the icons throughout the website.
+12. Werkzeug:
+    * Werkzeug was used is a comprehensive WSGI web application library.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -210,45 +212,38 @@ The Webformatter.com Markup Validator were used to validate every page of the pr
 ## Compatibility testing
  Site was tested across several virtual mobile devices and browsers.
  
- I tested on hardware devices such as: iPad pro, and iPhone11.
+ I tested on hardware devices such as: iPad pro, Macbook, Windows Desktop and iPhone11.
 
 
 ## User stories testing
 
 ### As a site owner:
 
-- I would like to make a game that is enjoyable for people to play.
-    * The game is very easy to use and good fun.
+- I would like the site to be easy to navigate.
+    * The site is simple to navigate.
+- I would like to clearly see what books users are recommending.
+    * The yellow 'tick' next to recommended books is visualy easy to see.
+- I would like the ability to add/delete/edit reviews with admin abilities.
+    * There is a delete and edit facility to remove or ammend any reviews that the user has submitted.
+- I would like to be able to generate revenue from Amazon book links.
+    * There is a link to purchase the book from Amazon if the book is available (currently not working!)
 
-- I want visitors to my game to be able to use my website intuitively and easily.
-    * The site is very easy to navigate.
-
-- I would like visitors to my game be able to easily find the rules on how to play the game.
-    * The rules are easy to find on the main page.
-
-- I would like visitors to my game be able to ask me any questions via a contact form.
-    *The contact form is easily located on the footer of all pages except the main game page.
 
 
 ### As a visitor:
 
-- I would like to know the rules of the game.
-    * The rules are easy to find on the main page.
-
-- As a fan of the Premier League I would like to know the current league standings.
-    * The API that I was hoping to use to do this did not work unfortunatley. Instead I had an interactive map locating all of the Premier League grounds.
-
-- I would like to know what the top score is.
-    * I did not get around to adding this element as I ran out of time. I will look to add this at a later stage.
-
-- I would like to know how I performed in my game. Time and moves.
-    * I did not get around to adding this element as I ran out of time. I will look to add this at a later stage.
-
-- I would like several difficulty levels to test myself on.
-    * I did not get around to adding this element as I ran out of time. I will look to add this at a later stage.
-
-- I would like a fun way to test my memory skills out.
-    * This is a fun way to test your basic memory skills.
+- I would like the site to be easy to navigate.
+    * The site is simple to navigate.
+- I would like to clearly see what books are recommended.
+    * The yellow 'tick' next to recommended books is visualy easy to see.
+- I would like to register and log in to keep a list of books that they have reviewed.
+    * There is a register and log in/out function.
+- I would like to be able to edit my reviews.
+    * There is an edit facility to ammend any reviews that the user has submitted.
+- I would like to be able to delete my reviews.
+    * There is a delete facility to remove any reviews that the user has submitted.
+- I would like to know where to purchase a book from if I like it.
+    * There is a link to purchase the book from Amazon if the book is available (currently not working!)
 
 
 ---
@@ -287,7 +282,7 @@ How to deploy this page to GitHub pages from the repository:
 
 1. Log in to GitHub
 2. Select the repository craigmantona/EPL-Memory-Game-1
-3. Under the repository name, click  Settings.
+3. Under the repository name, click Settings.
 4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
 5. Optionally, use the drop-down menu to select a folder for your publishing source.
 6. Click Save.
@@ -295,7 +290,7 @@ How to deploy this page to GitHub pages from the repository:
 Alternatively tou can pull the code from the GitHub repository:
 
 1. On GitHub, navigate to the main page of the repository.
-2. Above the list of files, click  Code.
+2. Above the list of files, click Code.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click the folder looking icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the folder looking icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the folder looking icon.
 4. Open Terminal.
 5. Change the current working directory to the location where you want the cloned directory.
