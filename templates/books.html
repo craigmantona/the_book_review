@@ -35,7 +35,7 @@
                 {% endif %}
             </div>
             <div class="col s9">
-                <strong>{{ book.book_name }}</strong> : {{ book.author }}
+                Book Title: <strong>{{ book.book_name }}</strong> |  Author: {{ book.author }}
                 {% if book.recommend == "yes" %}
                     <i class="far fa-check-circle tooltipped"
                         data-position="top" data-tooltip="Recommended!"></i>
@@ -43,8 +43,14 @@
             </div>
         </div>
         <div class="collapsible-body">
-            <p>{{ book.review }}</p>
-            <p><em>: {{ book.created_by }}</em></p>
+            <p>Review: {{ book.review }}</p>
+            <p><em>Reviewed By: {{ book.created_by }}</em></p>
+            <!-- Purchase Link Button, only showing when link is in db -->
+            {% if book.book_link != null %}
+                <a href="{{ book.book_link }}" target="_blank" class="btn-floating tooltipped purchase-btn" data-position="bottom" data-tooltip="Purchase Link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            {% endif %}
         </div>
     </li>
     {% endfor %}

@@ -111,6 +111,11 @@ def logout():
 @app.route("/add_book", methods=["GET", "POST"])
 def add_book():
     if request.method == "POST":
+        # purchase link auto-generated
+        book_link = (
+            "https://www.amazon.co.uk/s?k=" +
+            request.form.get("book_name")
+        )
         recommend = "yes" if request.form.get("recommend") else "no"
         book = {
             "book_name": request.form.get("book_name"),

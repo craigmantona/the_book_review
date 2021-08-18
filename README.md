@@ -47,24 +47,24 @@ It is an easy to use site that has been made using css, HTML, Python3, MongoDB a
 
 ## Website owner business goals
 
-Create a basic memory game that is fun and easy to play.
+To create an easy to use visually appealing site where book lovers can see and leave reviews.
 
 
 ## User stories
 
 ### As a site owner
-* I would like to make a game that is enjoyable for people to play.
-* I want visitors to my game to be able to use my website intuitively and easily.
-* I would like visitors to my game be able to easily find the rules on how to play the game.
-* I would like visitors to my game be able to ask me any questions via a contact form.
+* I would like the site to be easy to navigate.
+* I would like to clearly see what books are recommended.
+* I would like to register and log in to keep a list of books that they have reviewed.
+* I would like to be able to edit my reviews.
+* I would like to be able to delete my reviews.
+* I would like to know where to purchase a book from if I like it.
 
 ### As a visitor to the site
 * I would like the site to be easy to navigate.
-* I would like to clearly see what $$$$$$$$$$$$$$$$$$$$$$$$$$
-* I would like to know what the top score is.
-* I would like to know how I performed in my game. Time and moves.
-* I would like several difficulty levels to test myself on.
-* I would like a fun way to test my memory skills out.
+* I would like to clearly see what books users are recommending.
+* I would like the ability to add/delete/edit reviews with admin abilities.
+* I would like to be able to generate revenue from Amazon book links.
 
 
 ## Structure of the website
@@ -75,15 +75,10 @@ I have asked some friends and family for their input and to test interaction
 
 ## Wireframes
 
-I used the site https://www.edrawmax.com/ to create the wireframes for the site.
+I used the site https://www.balsamiq.com/wireframes/ to create the wireframes for the site.
 
-<img src="/assets/images/memory-game-iphone-wireframe-1.png" alt="Image of main page wireframe created before project started.">
-
-<img src="/assets/images/memory-game-iphone-wireframe-2.png" alt="Image of main page wireframe created before project started.">
-
-<img src="/assets/images/memory-game-website-wireframe-1.png" alt="Image of main page wireframe created before project started.">
-
-<img src="/assets/images/memory-game-website-wireframe-2.png" alt="Image of main page wireframe created before project started.">
+-	[Mobile](static/images/mobile-view-wireframe.pdf)
+-	[Desktop](static/images/web-view-wireframe.pdf)
 
 ## Surface
 
