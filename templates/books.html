@@ -47,8 +47,9 @@
             <p><em>Reviewed By: {{ book.created_by }}</em></p>
             <!-- Purchase Link Button, only showing when link is in db -->
             {% if book.book_link != null %}
-                <a href="{{ book.book_link }}" target="_blank" class="btn-floating tooltipped purchase-btn" data-position="bottom" data-tooltip="Book Link">
-                    <i class="fas fa-shopping-cart"></i>
+                <a href="https://www.amazon.co.uk/books-used-books-textbooks/b/?ie=UTF8&node=266239&ref_=nav_cs_books_6b4f547cd6ea4c69a8c8ec0eb18206c9"
+                target="_blank" class="btn-floating tooltipped purchase-btn" data-position="bottom" data-tooltip="Amazon Link">
+                    <i class="fab fa-amazon"></i>
                 </a>
             {% endif %}
         </div>

@@ -268,7 +268,11 @@ Screenshots are presented below:
 
 
 ### Known bugs
-The bottom of the cards on the game screen are slightly off the bottom of the screen.
+
+No Amazon link for The Hunger Games book entry.
+
+<img src="/static/images/lotr.png" alt="Lord of the Rings card with Amazon link"/>
+<img src="/static/images/hunger-games.png" alt="The Hunger Games card without Amazon link"/>
 
 ---
 
