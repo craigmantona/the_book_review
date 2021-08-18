@@ -84,20 +84,22 @@ I used the site https://www.balsamiq.com/wireframes/ to create the wireframes fo
 
 ### Colors
 Main colours used in a project:
-* background was an image
-* other background colors used: whitesmoke, #007 (a bold blue) and antiquewhite
+* background: #fff3e0 an off orange selected from the Materialize colour pallette.
+* navbar: brown darken-2 also taken from the Materialize colour pallette.
+* cards: a contrast of orange lighten-4 and orange lighten-5 also taken from the Materialize colour pallette.
+
 
 
 ### Fonts 
 
-* The Noto Sans TC font is the main font used throughout the whole website with Sana-Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Noto Sans TC is a clean and clear font, so it is both attractive and appropriate. 
+* The Cinzel font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Cinzel is a clean and clear and stylish font, so it is both attractive and appropriate. 
 
-### Images
+<!-- ### Images
 
 * All images are credited in [credits](#credits) section.
 
 
-[Back to Table of contents](#table-of-contents)
+[Back to Table of contents](#table-of-contents) -->
 ___
 
 # Features
@@ -108,12 +110,6 @@ The website consists of four pages. All are accessible from the main page. (Game
 * Interactive elements
 
 The website has below features:
-
-
-## Footer
-
-* Footer is consistent on all pages except for the game page. 
-It has a contact button left side, and copyright text on the right side.
 
 ## Home
 
