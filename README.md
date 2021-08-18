@@ -249,7 +249,7 @@ The Webformatter.com Markup Validator were used to validate every page of the pr
 ---
 ## Issues found during site development
 
-* The API site that I signed up to use on the site proved to be unreliable and I had to abandon it in favour of the google map api.
+* The Amazon link is not diverting to Amazon but instead opens up a duplicate of the current page.
 
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
@@ -257,8 +257,6 @@ The Webformatter.com Markup Validator were used to validate every page of the pr
 
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-* Issue with getting the cards to flip caused a lot of headaches. I got a friend (Palmjit Kunnar) to cast his eyes over my js code and he found my problem. I had accidentaly left some code out of the curly brackets that meant the js always stopped after the first click.
-<img src="/assets/images/flip-issue.png" alt="Images of cards staying turned after click in error."/>
 
 
 ## Performance testing
@@ -297,6 +295,18 @@ Alternatively tou can pull the code from the GitHub repository:
 6. Type git clone, and then paste the URL you copied earlier.
 7. Press Enter to create your local clone.
 
+Configuring GitHub integration
+
+To connect a Heroku app with a GitHub repo, go to the app’s “Deploy” tab on Heroku Dashboard and select the GitHub pane. If you haven’t connected your Heroku and GitHub accounts, you will be prompted to complete the GitHub OAuth flow. Heroku needs access to help you select repos and to be able to register webhooks triggered when you push to GitHub. Once connected, you can select which repo associated with your GitHub account to link to the Heroku app.
+
+<img src="/static/images/heroku-deploy.png" alt="Deployment image from Heroku."/>
+
+With app and repo connected, you can either manually deploy a specific branch, or select a Git branch that will be auto-deployed whenever it’s pushed to on GitHub.
+
+For auto-deploys, you can optionally configure Heroku to wait for continuous integration (like Travis CI) to pass on GitHub. With that option enabled, Heroku will only auto-deploy after all GitHub statuses for that commit have succeeded.
+
+Any builds created by the GitHub integration can be tracked in the app’s “Activity” tab and build output for running builds is streamed in Dashboard.
+
 [Back to Table of contents](#table-of-contents)
 ___
 
@@ -305,35 +315,27 @@ ___
 ### Code
 * Code learned through the Code Institute Full Stack Development course was used throughout the site.
 
-* Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* I used the base code learnt through the walkthrough project Task Manager, and used this as a template for my project. This was a huge help in getting the basics of the site.
 
 * Deployment instructions used from GitHub help pages
 
+* Deployment instructions for Heroku used from the Heroku integration page 
+
 * README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
 
-* code learnt through freeCodeCamp.org video on YouTube for Memory Game <a href="https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1733s"></a>
 
 ### Content
 * All content was written by the developer.
 
 ### Links and images
 
-1. Photo by Dom Le Roy from Pexels stadium photo - https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/
-2. Arsenal flag - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568936">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568936">Pixabay</a>
-3. Chelsea - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2699594">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2699594">Pixabay</a>
-4. Leicester - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3566688">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3566688">Pixabay</a>
-5. Liverpool - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2698969">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2698969">Pixabay</a>
-6. Man City - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2697766">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2697766">Pixabay</a>
-7. Wolverhampton Wanderers - Image by <a href="https://pixabay.com/users/jorono-1966666/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568910">jorono</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3568910">Pixabay</a>
-8. Badge - Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=308943">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=308943">Pixabay</a>
+
 
 
 ### Acknowledgements
 * My Mentor Adegbenga Adeye for assistance and feedback - he's great!
 
 * Tutor support at Code Institute for their support.
-
-* My friend Palmjit Kunnar for his help on finding my error in my js game code!
 
 [Back to Table of contents](#table-of-contents)
 ___
