@@ -99,7 +99,7 @@ ___
 
 # Features
 
-The website consists of four pages. All are accessible from the main page. (Game page, team location page and contact page)
+The website consists of six pages. The Login, Register, Book Reviews, Add Book, Edit Book and Info page accessed through the logo from the navbar.
 
 * Responsive on all device sizes
 * Interactive elements
