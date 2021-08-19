@@ -97,16 +97,16 @@ Main colours used in a project:
 
 ___
 
-<!-- # Features
+# Features
 
 The website consists of four pages. All are accessible from the main page. (Game page, team location page and contact page)
 
 * Responsive on all device sizes
 * Interactive elements
 
-The website has below features: -->
+The website has below features: 
 
-<!-- ## Home
+## Home
 
 * ### Title 
 
@@ -157,7 +157,8 @@ The website has below features: -->
 
 
 [Back to Table of contents](#table-of-contents)
-___ -->
+
+
 # Technology
 
 ### Languages Used
@@ -204,6 +205,7 @@ ___
 The Webformatter.com Markup Validator were used to validate every page of the project to ensure there were no syntax errors in the project for both HTML and CSS.
 
 * [HTML, CSS and JavaScript code checked through HTML/CSS/Javascript Formatter](https://webformatter.com/html) No issues found
+* [Python code checked through PEP8 Online Formatter](http://pep8online.com/checkresult) No issues found
 
 ## Functionality testing 
 
@@ -258,6 +260,8 @@ The Webformatter.com Markup Validator were used to validate every page of the pr
 
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+* When My Profile page was loaded no books were being shown. I have removed the page for now as I didn't feel it was essential as all functions could be used from the Home page. I will look to add this functionality at a later date.
+
 
 
 ## Performance testing
@@ -265,7 +269,7 @@ The Webformatter.com Markup Validator were used to validate every page of the pr
 I ran [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 Screenshots are presented below:
 
-<img src="/assets/images/lighthouse.png" alt="Images of performance from Lighthouse."/>
+<img src="/static/images/lighthouse-report.png" alt="Images of performance from Lighthouse."/>
 
 
 ### Known bugs
@@ -274,6 +278,8 @@ No Amazon link for The Hunger Games book entry.
 
 <img src="/static/images/lotr.png" alt="Lord of the Rings card with Amazon link"/>
 <img src="/static/images/hunger-games.png" alt="The Hunger Games card without Amazon link"/>
+
+I will look into rectifying this in a later edition.
 
 ---
 
@@ -320,7 +326,7 @@ ___
 ### Code
 * Code learned through the Code Institute Full Stack Development course was used throughout the site.
 
-* I used the base code learnt through the walkthrough project, Task Manager, and used this as a template for my project. This was a huge help in getting the basics of the site.
+* I used the base code learnt through the walkthrough project, Task Manager, and used this as a template for my project. This was a huge help in getting the basics of the site. I they added my own custom code to the project.
 
 * Deployment instructions used from GitHub help pages
 
@@ -334,6 +340,7 @@ ___
 
 ### Links and images
 
+On info page the library image came from:
 Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1281581">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1281581">Pixabay</a>
 
 
@@ -342,6 +349,7 @@ Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attr
 
 * Tutor support at Code Institute for their support.
 
+
 [Back to Table of contents](#table-of-contents)
 ___
 
@@ -349,12 +357,12 @@ ___
 
 ## Project screenshots
 
-Home page on website <img src="/assets/images/home-page.png" alt="Home page on website."/>
+Info page on website <img src="/static/images/info-page.png" alt="Info page on website."/>
 
-Rules modal on website <img src="/assets/images/rules.png" alt="Rules of game pop-up."/>
+Book Review page on website <img src="/static/images/book-review-page.png" alt="Book Review page on website."/>
 
-Team location page on website <img src="/assets/images/team-location.png" alt="Team location page on website."/>
+Add book page on website <img src="/static/images/add-book-page.png" alt="Add Book page on website."/>
 
-Contact page on website <img src="/assets/images/contact.png" alt="Contact page on website."/>
+Login page on website <img src="/static/images/login-page.png" alt="Login page on website."/>
 
-Game page on website <img src="/assets/images/game-page.png" alt="Game page on website."/>
+BRegister page on website <img src="/static/images/register-page.png" alt="Register page on website."/>
