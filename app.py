@@ -28,6 +28,11 @@ def get_books():
     return render_template("books.html", books=books)
 
 
+@app.route("/home_page")
+def home_page():
+    return render_template("home.html")
+
+
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")

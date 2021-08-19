@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block material %}
+
+<div class="row container">
+    <div class="col s12">
+        <img src="{{ url_for('static', filename='images/books.jpg') }}" id="bg" alt="books in a library" />
+        <div class="centered white-text">
+            <h3 class="center-align">The Book Review site</h3>
+            <h6>At the Book Review site you can read other peoples reviews of books and also leave reviews of your own.
+                If you change your mind on a book review that you have submitted, then no problem! 
+                You can either edit or delete it. We hope you enjoy the site!
+            </h6>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

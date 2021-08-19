@@ -87,6 +87,7 @@ Main colours used in a project:
 * background: #fff3e0 an off orange selected from the Materialize colour pallette.
 * navbar: brown darken-2 also taken from the Materialize colour pallette.
 * cards: a contrast of orange lighten-4 and orange lighten-5 also taken from the Materialize colour pallette.
+* home page info box #4e342e a tonal brown color to fit the theme of the site
 
 
 
@@ -319,7 +320,7 @@ ___
 ### Code
 * Code learned through the Code Institute Full Stack Development course was used throughout the site.
 
-* I used the base code learnt through the walkthrough project Task Manager, and used this as a template for my project. This was a huge help in getting the basics of the site.
+* I used the base code learnt through the walkthrough project, Task Manager, and used this as a template for my project. This was a huge help in getting the basics of the site.
 
 * Deployment instructions used from GitHub help pages
 
@@ -333,7 +334,7 @@ ___
 
 ### Links and images
 
-
+Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1281581">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1281581">Pixabay</a>
 
 
 ### Acknowledgements
