@@ -30,7 +30,7 @@ def get_books():
 
 @app.route("/home_page")
 def home_page():
-    return render_template("home.html")
+    return render_template("index.html")
 
 
 @app.route("/search", methods=["GET", "POST"])

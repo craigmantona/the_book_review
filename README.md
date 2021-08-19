@@ -10,7 +10,7 @@ A site for book readers to join and see and review books.
 It is an easy to use site that has been made using CSS, HTML, Python3, MongoDB and Javascript.
 
 
-<img src="/assets/images/screen-mockup.png" alt="Images of site on different media screens."/>
+<img src="/static/images/screen-mockup.png" alt="Images of site on different media screens."/>
 
 #### A view of how the site looks over different media.
 ---
@@ -286,7 +286,7 @@ This project was made using GitHub and GitPod.
 How to deploy this page to GitHub pages from the repository:
 
 1. Log in to GitHub
-2. Select the repository craigmantona/EPL-Memory-Game-1
+2. Select the repository craigmantona/the_book_review
 3. Under the repository name, click Settings.
 4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
 5. Optionally, use the drop-down menu to select a folder for your publishing source.
