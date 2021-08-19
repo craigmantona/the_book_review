@@ -10,7 +10,7 @@ A site for book readers to join and see and review books.
 It is an easy to use site that has been made using CSS, HTML, Python3, MongoDB and Javascript.
 
 
-<!-- <img src="/assets/images/mockup.png" alt="Images of site on different media screens."/> -->
+<img src="/assets/images/screen-mockup.png" alt="Images of site on different media screens."/>
 
 #### A view of how the site looks over different media.
 ---
@@ -106,54 +106,50 @@ The website consists of six pages. The Login, Register, Book Reviews, Add Book, 
 
 The website has below features: 
 
-## Home
+## All Pages
+All pages have the following accessed through the Base.html site boilerplate functions.
 
-* ### Title 
+* ### Materialize Navbar 
 
-    * There is a h3 title to let people know what site they are on.
+    * Links to navigate the site
 
-* ### Rules of the game
+* ### Materialize Side Navbar 
 
-    * This is a modal showing the simple instructions of how to play the game.
+    * Links to navigate the site from a mobile device
 
-* ### Play Game
+## Book Reviews Page 
 
-    * This button takes you to the game page.
+* ### Search bar
 
-* ### Team location
+    * This allows the user to search books and or authors on the site.
+    * There is also a reset button for the user to cancel their search.
 
-    * This take you to the team location page where you can see the location of all 20 Premier League clubs.
+* ### Book Cards
 
-## Game page
-
-* ### Home button
-
-    * This allows the user to navigate back to the home page.
-
-* ### Play again button
-
-    * This allows the user to play the game again.
+    * This allows the user to see all of the books on the site.
+    * If the user submitted the review then they will be able to edit or delete the review using the buttons on the card.
+    * There is also an Amazon link button that takes the user to the book section of Amazon so they can look to purchase the book if they want to.
 
 
-## Team location page
+## New Review Page
 
-* ### Home button
+* ### Form
 
-    * This allows the user to navigate back to the home page.
+    * There is a form on the Add Book page that requires the user to fill in fields to add a book review.
 
-* ### Google map
+* ### Recommend toggle
 
-    * This shows the user where the location of all 20 Premier League clubs.
+    * This allows the user to toggle between whether they recommend the book or not.
 
-## Contact us page
+* ### Add Book Button
 
-* ### Home button
+    * This button allows the user to submit their book review.
 
-    * This allows the user to navigate back to the home page.
+## Login Page & Register Page
 
-* ### Enquiry form
+* ### Form
 
-    * This is where you can send a message directly to us.
+    * There is a form on the Login and Register pages that requires the user to fill in fields to register or login.
 
 
 [Back to Table of contents](#table-of-contents)
