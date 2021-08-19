@@ -3,7 +3,7 @@
 ## Milestone 3 Project
 
 The Book Review - my third milestone project - a site for book lovers and people who want to keep a lost of books that they have read/reviewed .
-<!-- ## [Link to finished site](https://craigmantona.github.io/EPL-Memory-Game-1/) -->
+## [Link to finished site](https://book-review-project-cm.herokuapp.com/)
 
 A site for book readers to join and see and review books.
 
