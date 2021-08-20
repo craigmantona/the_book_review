@@ -3,6 +3,7 @@
 
 <h3 class="center-align">All Book Reviews</h3>
 
+<!-- search box -->
 <div class="row card-panel orange lighten-4">
     <form action="{{ url_for('search') }}" method="post" class="col s12">
         <div class="row valign-wrapper center-align">
@@ -11,6 +12,7 @@
                 <input type="text" name="query" id="query" minlength="3" class="validate" required>
                 <label for="query">Search Books</label>
             </div>
+            <!-- search buttons -->
             <div class="col s12 m4">
                 <a href="{{ url_for('get_books') }}" class="red btn">Reset</a>
                 <button type="submit" class="light-blue darken-1 btn">
@@ -23,6 +25,7 @@
 
 {% if books|length > 0 %}
 
+<!-- cards with the books -->
 <ul class="collapsible popout">
     {% for book in books %}
     <li>
@@ -43,9 +46,10 @@
             </div>
         </div>
         <div class="collapsible-body">
+            <!-- review details -->
             <p>Review: {{ book.review }}</p>
             <p><em>Reviewed By: {{ book.created_by }}</em></p>
-            <!-- Purchase Link Button, only showing when link is in db -->
+            <!-- Purchase Link Button -->
             {% if book.book_link != null %}
                 <a href="https://www.amazon.co.uk/books-used-books-textbooks/b/?ie=UTF8&node=266239&ref_=nav_cs_books_6b4f547cd6ea4c69a8c8ec0eb18206c9"
                 target="_blank" class="btn-floating tooltipped purchase-btn" data-position="bottom" data-tooltip="Amazon Link">
@@ -57,6 +61,7 @@
     {% endfor %}
 </ul>
 {% else %}
+    <!-- flash if search finds nothing -->
     <h3 class="center-align red-text"><i class="fas fa-exclamation-triangle"></i>
          No results found <i class="fas fa-exclamation-triangle"></i> <br>
          Have you searched a full word?</h3>

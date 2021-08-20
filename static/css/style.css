@@ -16,23 +16,23 @@ div.a {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* flashes */
 .flashes h4 {
     line-height: 2;
 }
 
+/* buttons */
 .btn-small {
     margin: 5px;
 }
 
+/* collapsable header */
 .collapsible-header .col strong {
     margin: 5px;
     line-height: 42px;
 }
 
-/* nav .brand-logo {
-    padding-left: 30px;
-} */
-
+/* navbar */
 nav .brand-logo {
     position: absolute;
     color: #fff;
@@ -46,6 +46,7 @@ nav ul a {
     font-size: 1.5rem;
 }
 
+/* image on index.html background */
 /* code found at https://css-tricks.com/perfect-full-page-background-image/ and slightly ammended */
 #bg {
     position: fixed; 
@@ -57,7 +58,7 @@ nav ul a {
     min-height: 80%;
   }
 
-  /* Centered text */
+/* content on index.html page */
 .centered {
     position: absolute;
     top: 50%;

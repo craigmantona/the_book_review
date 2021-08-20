@@ -127,7 +127,8 @@ def add_book():
             "author": request.form.get("author"),
             "review": request.form.get("review"),
             "recommend": recommend,
-            "created_by": session["user"]            
+            "created_by": session["user"],
+            "book_link": request.form.get("book_link")        
         }
         mongo.db.books.insert_one(book)
         flash("Book Succesfully Added!")
@@ -145,7 +146,8 @@ def edit_book(book_id):
             "author": request.form.get("author"),
             "review": request.form.get("review"),
             "recommend": recommend,
-            "created_by": session["user"]            
+            "created_by": session["user"],
+            "book_link": request.form.get("book_link")             
         }
         mongo.db.books.update({"_id": ObjectId(book_id)}, submit)
         flash("Book Succesfully Edited!")
